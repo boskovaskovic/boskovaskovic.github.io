@@ -1,0 +1,45 @@
+{
+      "applinks": {
+            "apps": [],
+            "details": [{
+                        "appIDs": [
+                              "QKAASU875F.rs.raiffeisenbank.iBanking.mobile.Raiffeisen-SWIFT-DEV",
+                              "QKAASU875F.rs.raiffeisenbank.iBanking.mobile.Raiffeisen-SWIFT-UAT",
+                              "S4244B4YUU.rs.raiffeisenbank.iBanking.mobile.Raiffeisen"
+                        ],
+                        "components": [{
+                                    "/": "/RetailNTB/Html/sr-Latn-CS/crossSellPage.html"
+                              },
+                              {
+                                    "/": "/RetailNTB/Html/en-US/crossSellPage.html"
+                              },
+                              {
+                                    "/": "/Online/Html/sr-Latn-CS/crossSellPage.html"
+                              },
+                              {
+                                    "/": "/Online/Html/en-US/crossSellPage.html"
+                              },
+                              {
+                                    "/": "/ips/ek/fl/"
+                              },
+{
+                                    "/": "/ips/ek/pl/"
+                              }
+                        ]
+                  },
+                  {
+                        "appID": "S4244B4YUU.rs.raiffeisenbank.iBanking.mobile.Raiffeisen",
+                        "paths": ["/RetailNTB/Html/sr-Latn-CS/crossSellPage.html", "/RetailNTB/Html/en-US/crossSellPage.html", "/ips/ek/fl/", "/ips/ek/pl/", "/Online/Html/sr-Latn-CS/crossSellPage.html", "/Online/Html/en-US/crossSellPage.html"]
+                  },
+                  {
+                        "appID": "QKAASU875F.rs.raiffeisenbank.iBanking.mobile.Raiffeisen-SWIFT-DEV",
+                        "paths": ["/RetailNTB/Html/sr-Latn-CS/crossSellPage.html", "/RetailNTB/Html/en-US/crossSellPage.html", "/ips/ek/fl/", "/ips/ek/pl/", "/Online/Html/sr-Latn-CS/crossSellPage.html", "/Online/Html/en-US/crossSellPage.html"]
+                  },
+                  {
+                        "appID": "QKAASU875F.rs.raiffeisenbank.iBanking.mobile.Raiffeisen-SWIFT-UAT",
+                        "paths": ["/RetailNTB/Html/sr-Latn-CS/crossSellPage.html", "/RetailNTB/Html/en-US/crossSellPage.html", "/ips/ek/fl/", "/ips/ek/pl/", "/Online/Html/sr-Latn-CS/crossSellPage.html", "/Online/Html/en-US/crossSellPage.html"]
+                  }
+
+            ]
+      }
+}
