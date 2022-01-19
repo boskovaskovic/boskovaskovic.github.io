@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "rs.Raiffeisen.mobile.dev",
+    "sha256_cert_fingerprints":
+    ["E0:CA:4D:56:4F:81:E3:28:AC:5D:5B:39:E6:07:C0:44:9B:08:95:6F:8A:DB:DE:CD:3F:22:C9:36:C4:FA:BD:64"]
+  }
+}]
