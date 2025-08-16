@@ -20,10 +20,10 @@
     }
     nav {
       text-align: center;
-      margin: 1rem 0;
+      margin-top: 1rem;
     }
     nav button {
-      margin: 0 0.25rem;
+      margin: 0.25rem;
       padding: 0.5rem 1rem;
       border: none;
       background: #eee;
@@ -60,10 +60,10 @@
     a {
       color: #1e88e5;
     }
-    .policy {
+    .lang {
       display: none;
     }
-    .policy.active {
+    .lang.active {
       display: block;
     }
   </style>
@@ -84,89 +84,95 @@
   </nav>
 
   <main>
-    <section id="en" class="policy active">
+    <!-- ENGLISH -->
+    <div id="en" class="lang active">
       <p>Pathfinder Pro (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we handle your information when you use our compass app.</p>
       <h2>1. Data Collection</h2>
-      <p>We do not collect, store, or share any personal data. The app processes sensor data (e.g., compass direction, elevation, coordinates) locally on your device only.</p>
+      <p>We do not collect, store, or share any personal data. The app processes sensor data (e.g., compass direction, elevation, coordinates) locally on your device only. No data is transmitted or stored externally.</p>
       <h2>2. In-App Payments</h2>
-      <p>All payments are securely processed via Google Play. We do not collect any payment or personal info.</p>
+      <p>The app is a paid application, and all payments are securely processed via the Google Play Store. We do not have access to your payment information, and we do not collect any personal details related to your purchase.</p>
       <h2>3. Third-party Access</h2>
-      <p>This app does not use third-party services, ads, or analytics. Everything runs locally.</p>
+      <p>This app does not use third-party services, analytics, ads, or external SDKs. Your usage stays entirely on your device.</p>
       <h2>4. Changes to This Policy</h2>
-      <p>We may update this policy. Changes will be posted here or inside the app.</p>
-      <h2>5. Contact</h2>
-      <p>Email us at <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
-    </section>
+      <p>We may update this Privacy Policy from time to time. Any changes will be reflected in this document and/or within the app.</p>
+      <h2>4. Contact</h2>
+      <p>If you have any questions or concerns about this Privacy Policy, feel free to contact us at <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a>.</p>
+    </div>
 
-    <section id="es" class="policy">
-      <p>Pathfinder Pro respeta su privacidad. Esta política explica cómo manejamos sus datos.</p>
-      <h2>1. Recolección de Datos</h2>
-      <p>No recopilamos ni compartimos datos personales. Todos los datos se procesan en su dispositivo.</p>
-      <h2>2. Pagos</h2>
-      <p>Los pagos se procesan mediante Google Play. No accedemos a su información personal.</p>
+    <!-- SPANISH -->
+    <div id="es" class="lang">
+      <p>Pathfinder Pro (“nosotros”) respeta su privacidad. Esta Política de Privacidad explica cómo manejamos su información cuando usa nuestra aplicación de brújula.</p>
+      <h2>1. Recopilación de Datos</h2>
+      <p>No recopilamos, almacenamos ni compartimos ningún dato personal. La aplicación procesa datos de sensores (como dirección de la brújula, elevación, coordenadas) solo localmente en su dispositivo. No se transmite ni almacena información externamente.</p>
+      <h2>2. Pagos en la Aplicación</h2>
+      <p>La aplicación es de pago, y todos los pagos se procesan de forma segura a través de Google Play Store. No tenemos acceso a su información de pago ni recopilamos datos personales relacionados con su compra.</p>
       <h2>3. Acceso de Terceros</h2>
-      <p>La app no usa servicios de terceros ni publicidad.</p>
-      <h2>4. Cambios</h2>
-      <p>Podemos actualizar esta política y reflejar cambios aquí o en la app.</p>
-      <h2>5. Contacto</h2>
-      <p>Contáctenos: <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
-    </section>
+      <p>Esta aplicación no utiliza servicios de terceros, análisis, anuncios ni SDK externos. Su uso permanece completamente en su dispositivo.</p>
+      <h2>4. Cambios a Esta Política</h2>
+      <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Cualquier cambio se reflejará en este documento y/o dentro de la aplicación.</p>
+      <h2>4. Contacto</h2>
+      <p>Si tiene preguntas o inquietudes sobre esta Política de Privacidad, contáctenos en <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a>.</p>
+    </div>
 
-    <section id="fr" class="policy">
-      <p>Pathfinder Pro respecte votre vie privée. Voici comment nous traitons vos données.</p>
+    <!-- FRENCH -->
+    <div id="fr" class="lang">
+      <p>Pathfinder Pro (« nous ») respecte votre vie privée. Cette politique de confidentialité explique comment nous traitons vos informations lorsque vous utilisez notre application de boussole.</p>
       <h2>1. Collecte de Données</h2>
-      <p>Nous ne collectons aucune donnée personnelle. Toutes les données sont locales.</p>
-      <h2>2. Paiements</h2>
-      <p>Les paiements passent par Google Play. Aucune donnée personnelle n’est collectée.</p>
-      <h2>3. Tiers</h2>
-      <p>L’app ne contient aucune pub ni service externe.</p>
-      <h2>4. Modifications</h2>
-      <p>Des changements peuvent être apportés à cette politique.</p>
-      <h2>5. Contact</h2>
-      <p>Contactez-nous : <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
-    </section>
+      <p>Nous ne collectons, stockons ni partageons aucune donnée personnelle. L'application traite les données des capteurs (direction, altitude, coordonnées) uniquement localement sur votre appareil. Aucune donnée n'est transmise ou stockée à l'extérieur.</p>
+      <h2>2. Paiements In-App</h2>
+      <p>L'application est payante, et tous les paiements sont traités de manière sécurisée via Google Play Store. Nous n'avons pas accès à vos informations de paiement et ne collectons aucune donnée personnelle liée à l'achat.</p>
+      <h2>3. Accès de Tiers</h2>
+      <p>Cette application n'utilise aucun service tiers, publicité, ni SDK externe. Votre utilisation reste entièrement sur votre appareil.</p>
+      <h2>4. Modifications de cette Politique</h2>
+      <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Tout changement sera reflété dans ce document et/ou dans l'application.</p>
+      <h2>4. Contact</h2>
+      <p>Pour toute question ou préoccupation, veuillez nous contacter à <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a>.</p>
+    </div>
 
-    <section id="ru" class="policy">
-      <p>Pathfinder Pro уважает вашу конфиденциальность. Мы не собираем личные данные.</p>
+    <!-- RUSSIAN -->
+    <div id="ru" class="lang">
+      <p>Pathfinder Pro («мы») уважает вашу конфиденциальность. В этой Политике объясняется, как мы обрабатываем вашу информацию при использовании приложения-компаса.</p>
       <h2>1. Сбор данных</h2>
-      <p>Данные обрабатываются локально. Ничего не отправляется.</p>
-      <h2>2. Платежи</h2>
-      <p>Все платежи через Google Play. Мы не получаем доступ к вашим данным.</p>
-      <h2>3. Сторонние сервисы</h2>
-      <p>Приложение не использует сторонние сервисы или рекламу.</p>
-      <h2>4. Изменения</h2>
-      <p>Политика может быть обновлена.</p>
-      <h2>5. Контакт</h2>
-      <p>Свяжитесь с нами: <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
-    </section>
+      <p>Мы не собираем, не храним и не передаем личные данные. Приложение обрабатывает данные датчиков (направление, высота, координаты) только на вашем устройстве. Данные не передаются и не сохраняются внешне.</p>
+      <h2>2. Покупки в приложении</h2>
+      <p>Приложение платное, и все платежи обрабатываются через Google Play. Мы не получаем доступ к вашей информации о платеже и не собираем никаких данных о покупке.</p>
+      <h2>3. Сторонний доступ</h2>
+      <p>Приложение не использует сторонние сервисы, рекламу или SDK. Все действия происходят только на вашем устройстве.</p>
+      <h2>4. Изменения политики</h2>
+      <p>Мы можем обновлять эту политику. Все изменения будут отражены здесь и/или в приложении.</p>
+      <h2>4. Контакты</h2>
+      <p>Если у вас есть вопросы, свяжитесь с нами по адресу <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a>.</p>
+    </div>
 
-    <section id="sr" class="policy">
-      <p>Pathfinder Pro поштује вашу приватност. Не прикупљамо личне податке.</p>
+    <!-- SERBIAN -->
+    <div id="sr" class="lang">
+      <p>Pathfinder Pro („mi“) поштује вашу приватност. Ова политика приватности објашњава како поступамо са вашим подацима када користите нашу апликацију за компас.</p>
       <h2>1. Прикупљање података</h2>
-      <p>Сви подаци се обрађују локално на вашем уређају.</p>
-      <h2>2. Уплате</h2>
-      <p>Уплате иду преко Google Play-а. Немамо приступ личним подацима.</p>
+      <p>Не прикупљамо, не чувамо нити делимо личне податке. Апликација обрађује податке сензора (правац компаса, надморска висина, координате) локално на вашем уређају. Подаци се не шаљу или чувају екстерно.</p>
+      <h2>2. Куповине у апликацији</h2>
+      <p>Апликација је плаћена и сви уплати се обрађују преко Google Play продавнице. Немамо приступ информацијама о плаћању нити прикупљамо податке о куповини.</p>
       <h2>3. Приступ трећих страна</h2>
-      <p>Апликација не користи треће стране ни рекламе.</p>
-      <h2>4. Промене</h2>
-      <p>Политика се може мењати и биће објављена овде.</p>
-      <h2>5. Контакт</h2>
-      <p>Контакт: <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
-    </section>
+      <p>Апликација не користи услуге трећих страна, рекламе или екстерне SDK-ове. Све остаје на вашем уређају.</p>
+      <h2>4. Промене политике</h2>
+      <p>Политику можемо ажурирати. Све промене ће бити приказане овде и/или у апликацији.</p>
+      <h2>4. Контакт</h2>
+      <p>Уколико имате питања, пишите нам на <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a>.</p>
+    </div>
 
-    <section id="zh" class="policy">
-      <p>Pathfinder Pro 尊重您的隐私。本应用不会收集或传输任何个人信息。</p>
+    <!-- CHINESE -->
+    <div id="zh" class="lang">
+      <p>Pathfinder Pro（“我们”）尊重您的隐私。此隐私政策说明我们在您使用指南针应用时如何处理您的信息。</p>
       <h2>1. 数据收集</h2>
-      <p>所有传感器数据仅在设备本地处理。</p>
-      <h2>2. 应用内付款</h2>
-      <p>付款通过 Google Play 进行处理，我们无法访问任何付款信息。</p>
-      <h2>3. 第三方服务</h2>
-      <p>应用无广告，无第三方集成。</p>
+      <p>我们不收集、存储或共享任何个人数据。应用只在您设备上本地处理传感器数据（如指南针方向、高度、坐标）。不会将数据传输或存储到外部。</p>
+      <h2>2. 应用内购买</h2>
+      <p>本应用为付费应用，所有付款均通过 Google Play 安全处理。我们无法访问您的支付信息，也不会收集与购买相关的个人信息。</p>
+      <h2>3. 第三方访问</h2>
+      <p>本应用不使用任何第三方服务、广告或外部 SDK。您的使用完全在设备本地进行。</p>
       <h2>4. 政策变更</h2>
-      <p>我们可能会更新本政策，并在此页面反映。</p>
-      <h2>5. 联系方式</h2>
-      <p>联系邮箱：<a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
-    </section>
+      <p>我们可能会不时更新本隐私政策。所有更改将在此文档和/或应用中反映。</p>
+      <h2>4. 联系方式</h2>
+      <p>如有任何疑问，请联系：<a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </div>
   </main>
 
   <footer>
@@ -175,8 +181,9 @@
 
   <script>
     function switchLang(lang) {
-      document.querySelectorAll('.policy').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
       document.getElementById(lang).classList.add('active');
+
       document.querySelectorAll('nav button').forEach(btn => btn.classList.remove('active'));
       event.target.classList.add('active');
     }
