@@ -18,6 +18,22 @@
       padding: 2rem 1rem;
       text-align: center;
     }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav button {
+      margin: 0 0.25rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      background: #eee;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    nav button.active {
+      background: #1e88e5;
+      color: white;
+    }
     main {
       max-width: 800px;
       margin: 2rem auto;
@@ -44,6 +60,12 @@
     a {
       color: #1e88e5;
     }
+    .policy {
+      display: none;
+    }
+    .policy.active {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -51,26 +73,113 @@
     <h1>Privacy Policy for Pathfinder Pro</h1>
     <p>Effective Date: July 20, 2025</p>
   </header>
+
+  <nav>
+    <button onclick="switchLang('en')" class="active">English</button>
+    <button onclick="switchLang('es')">Español</button>
+    <button onclick="switchLang('fr')">Français</button>
+    <button onclick="switchLang('ru')">Русский</button>
+    <button onclick="switchLang('sr')">Српски</button>
+    <button onclick="switchLang('zh')">中文</button>
+  </nav>
+
   <main>
-    <p>Pathfinder Pro (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we handle your information when you use our compass app.</p>
+    <section id="en" class="policy active">
+      <p>Pathfinder Pro (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we handle your information when you use our compass app.</p>
+      <h2>1. Data Collection</h2>
+      <p>We do not collect, store, or share any personal data. The app processes sensor data (e.g., compass direction, elevation, coordinates) locally on your device only.</p>
+      <h2>2. In-App Payments</h2>
+      <p>All payments are securely processed via Google Play. We do not collect any payment or personal info.</p>
+      <h2>3. Third-party Access</h2>
+      <p>This app does not use third-party services, ads, or analytics. Everything runs locally.</p>
+      <h2>4. Changes to This Policy</h2>
+      <p>We may update this policy. Changes will be posted here or inside the app.</p>
+      <h2>5. Contact</h2>
+      <p>Email us at <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </section>
 
-    <h2>1. Data Collection</h2>
-    <p>We do not collect, store, or share any personal data.The app processes sensor data (e.g., compass direction, elevation, coordinates) locally on your device only. No data is transmitted or stored externally.</p>
+    <section id="es" class="policy">
+      <p>Pathfinder Pro respeta su privacidad. Esta política explica cómo manejamos sus datos.</p>
+      <h2>1. Recolección de Datos</h2>
+      <p>No recopilamos ni compartimos datos personales. Todos los datos se procesan en su dispositivo.</p>
+      <h2>2. Pagos</h2>
+      <p>Los pagos se procesan mediante Google Play. No accedemos a su información personal.</p>
+      <h2>3. Acceso de Terceros</h2>
+      <p>La app no usa servicios de terceros ni publicidad.</p>
+      <h2>4. Cambios</h2>
+      <p>Podemos actualizar esta política y reflejar cambios aquí o en la app.</p>
+      <h2>5. Contacto</h2>
+      <p>Contáctenos: <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </section>
 
-    <h2>2. In-App Payments</h2>
-    <p>The app is a paid application, and all payments are securely processed via the Google Play Store. We do not have access to your payment information, and we do not collect any personal details related to your purchase.</p>
+    <section id="fr" class="policy">
+      <p>Pathfinder Pro respecte votre vie privée. Voici comment nous traitons vos données.</p>
+      <h2>1. Collecte de Données</h2>
+      <p>Nous ne collectons aucune donnée personnelle. Toutes les données sont locales.</p>
+      <h2>2. Paiements</h2>
+      <p>Les paiements passent par Google Play. Aucune donnée personnelle n’est collectée.</p>
+      <h2>3. Tiers</h2>
+      <p>L’app ne contient aucune pub ni service externe.</p>
+      <h2>4. Modifications</h2>
+      <p>Des changements peuvent être apportés à cette politique.</p>
+      <h2>5. Contact</h2>
+      <p>Contactez-nous : <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </section>
 
-    <h2>3. Third-party Access</h2>
-    <p>This app does not use third-party services, analytics, ads, or external SDKs. Your usage stays entirely on your device.</p>
+    <section id="ru" class="policy">
+      <p>Pathfinder Pro уважает вашу конфиденциальность. Мы не собираем личные данные.</p>
+      <h2>1. Сбор данных</h2>
+      <p>Данные обрабатываются локально. Ничего не отправляется.</p>
+      <h2>2. Платежи</h2>
+      <p>Все платежи через Google Play. Мы не получаем доступ к вашим данным.</p>
+      <h2>3. Сторонние сервисы</h2>
+      <p>Приложение не использует сторонние сервисы или рекламу.</p>
+      <h2>4. Изменения</h2>
+      <p>Политика может быть обновлена.</p>
+      <h2>5. Контакт</h2>
+      <p>Свяжитесь с нами: <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </section>
 
-    <h2>4. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected in this document and/or within the app.</p>
+    <section id="sr" class="policy">
+      <p>Pathfinder Pro поштује вашу приватност. Не прикупљамо личне податке.</p>
+      <h2>1. Прикупљање података</h2>
+      <p>Сви подаци се обрађују локално на вашем уређају.</p>
+      <h2>2. Уплате</h2>
+      <p>Уплате иду преко Google Play-а. Немамо приступ личним подацима.</p>
+      <h2>3. Приступ трећих страна</h2>
+      <p>Апликација не користи треће стране ни рекламе.</p>
+      <h2>4. Промене</h2>
+      <p>Политика се може мењати и биће објављена овде.</p>
+      <h2>5. Контакт</h2>
+      <p>Контакт: <a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </section>
 
-    <h2>4. Contact</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, feel free to contact us at <a href="mailto:boskovaskovic@gmail.com">boskovaskovic@gmail.com</a>.</p>
+    <section id="zh" class="policy">
+      <p>Pathfinder Pro 尊重您的隐私。本应用不会收集或传输任何个人信息。</p>
+      <h2>1. 数据收集</h2>
+      <p>所有传感器数据仅在设备本地处理。</p>
+      <h2>2. 应用内付款</h2>
+      <p>付款通过 Google Play 进行处理，我们无法访问任何付款信息。</p>
+      <h2>3. 第三方服务</h2>
+      <p>应用无广告，无第三方集成。</p>
+      <h2>4. 政策变更</h2>
+      <p>我们可能会更新本政策，并在此页面反映。</p>
+      <h2>5. 联系方式</h2>
+      <p>联系邮箱：<a href="mailto:bosko.vaskovic@gmail.com">bosko.vaskovic@gmail.com</a></p>
+    </section>
   </main>
+
   <footer>
     © 2025 Bosko Vaskovic
   </footer>
+
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.policy').forEach(p => p.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+      document.querySelectorAll('nav button').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+  </script>
 </body>
 </html>
